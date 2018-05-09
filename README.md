@@ -12,9 +12,9 @@ Api Endpoints
 (Note: These endpoints can easily be tested using HTTPie) 
 
 Public Endpoints
-/api/auth/sigin (POST) - To sign in 
-/api/auth/signup (POST) - To register a new user
+1. /api/auth/sigin (POST) - To sign in 
+2. /api/auth/signup (POST) - To register a new user
 
 Private Endpoints (These routes require a JWT on the auth header to access)
-/home
-/profile
+1. /home
+2. /profile
